@@ -23,6 +23,6 @@
 
 `forfiles /s`
 
-- Busca archivos más antiguos que 5 días:
+- Busca archivos cuya última modificación fue hace al menos 5 días:
 
-`forfiles /d +5`
+`forfiles /d -5`

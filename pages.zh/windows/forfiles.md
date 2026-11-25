@@ -23,6 +23,6 @@
 
 `forfiles /s`
 
-- 搜索超过 5 天的文件：
+- 搜索至少 5 天前最后修改的文件：
 
-`forfiles /d +5`
+`forfiles /d -5`
